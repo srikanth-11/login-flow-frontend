@@ -23,9 +23,7 @@ let fetchAllUrlDetails = async () => {
         'Authorization': token,
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({
-        email:myemail,
-    }),
+     
     });
     let urlDetailsJson = await urlDetails.json();
     return urlDetailsJson;
