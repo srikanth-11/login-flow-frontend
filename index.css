@@ -1,0 +1,20 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(219, 226, 226);
+}
+.row {
+	background: white;
+	border-radius: 30px;
+	margin-top: 5em;
+	box-shadow: 5px 10px 20px rgb(151, 157, 160);
+}
+.row:hover {
+	box-shadow: 5px 10px rgb(151, 157, 160) !important;
+}
+
+
