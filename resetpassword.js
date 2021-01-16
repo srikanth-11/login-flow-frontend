@@ -1,5 +1,5 @@
 
-const myurl = "https://passwordreset-12.herokuapp.com"
+const myurl = "https://url-shortner-1.herokuapp.com"
 
 let password = document.getElementById("password");
 
