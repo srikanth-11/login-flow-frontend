@@ -160,4 +160,8 @@ document.getElementById("shortenUrl").addEventListener("click", () => {
   console.log("clicked");
   shortenUrl();
 });
+document.getElementById("logout").addEventListener("click", () => {
+  localStorage.removeItem('jwt-token')
+  location.href = "../index.html";
+})
 
