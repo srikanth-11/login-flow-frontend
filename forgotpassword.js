@@ -15,7 +15,7 @@ let checkOnSubmit = async (e) => {
    
 
 
-         let user = await fetch("https://passwordreset-12.herokuapp.com/forget-password", {
+         let user = await fetch("https://url-shortner-1.herokuapp.com/forget-password", {
 
              // Adding method type 
              method: "POST",
