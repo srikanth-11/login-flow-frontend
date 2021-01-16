@@ -13,6 +13,7 @@ const parseJwt = (token) => {
 let token =  localStorage.getItem('jwt-token')
 let myemail = parseJwt(token).email
 let youremail = myemail.slice(0,-10);
+console.log(token)
 
 document.getElementById("name1").innerHTML=youremail
 
