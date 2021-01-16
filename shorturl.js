@@ -30,6 +30,7 @@ let fetchAllUrlDetails = async () => {
      
     });
     let urlDetailsJson = await urlDetails.json();
+    console.log(urlDetailsJson)
     return urlDetailsJson;
   } catch (err) {
     console.error(err);
