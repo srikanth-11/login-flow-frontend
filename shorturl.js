@@ -161,7 +161,7 @@ document.getElementById("shortenUrl").addEventListener("click", () => {
   shortenUrl();
 });
 document.getElementById("logout").addEventListener("click", () => {
-  localStorage.removeItem('jwt-token')
+  
   location.href = "../index.html";
 })
 
