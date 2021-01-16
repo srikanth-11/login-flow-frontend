@@ -13,7 +13,7 @@ const parseJwt = (token) => {
 let token =  localStorage.getItem('jwt-token')
 let myemail = parseJwt(token).email
 
-document.getElementById("name").innerHTML=myemail
+document.getElementById("name1").innerHTML=myemail
 
 
 // fetch all url details to display in table
