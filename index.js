@@ -4,7 +4,7 @@ let password = document.getElementById("password");
 
 let loginButton = document.querySelector(".loginButton");
 
-let myurl ="https://passwordreset-12.herokuapp.com"
+let myurl ="https://url-shortner-1.herokuapp.com"
 
 let checkOnSubmit = async (e) => {
   try {
