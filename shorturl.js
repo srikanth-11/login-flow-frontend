@@ -1,6 +1,6 @@
 
   
-let myurl = "https://urlshortner-12.herokuapp.com";
+let myurl = "https://url-shortner-1.herokuapp.com";
 
 
 const parseJwt = (token) => {
