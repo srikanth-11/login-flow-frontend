@@ -33,7 +33,7 @@ let checkOnSubmit = async (e) => {
     
     let mytoken= localStorage.getItem('jwt-token')
     if(mytoken==userJson.token) {console.log("equal")}
-    else{console.log("not equal")
+    else{console.log("not equal")}
     if(mytoken){
    localStorage.setItem('jwt-token', mytoken);
     }
