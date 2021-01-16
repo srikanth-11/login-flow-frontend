@@ -30,9 +30,16 @@ let checkOnSubmit = async (e) => {
     console.log(user);
 
     let userJson = await user.json();
+    
+    let mytoken= localStorage.getItem('jwt-token')
+    if(mytoken){
+   localStorage.setItem('jwt-token', mytoken);
+    }
+    else{
     if(userJson.token){
       localStorage.setItem('jwt-token', userJson.token);
     }
+  }
 
     if (userJson.message == "User Authenticated Successfully") {
       location.href = "../shorturl.html";
