@@ -18,7 +18,7 @@ let checkOnSubmit = async () => {
 
                 // Adding body or contents to send
                 body: JSON.stringify({
-                    token,
+                    token:token,
                     password:password.value
                 }),
 
