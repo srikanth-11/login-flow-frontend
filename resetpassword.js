@@ -30,11 +30,13 @@ let checkOnSubmit = async () => {
             console.log(data)
             let jsonData = await data.json();
 	    if(jsonData.status==200){
-                location.href = "../index.html";
+                location.pathname="/index.html"
+                
             }
             else{
-                location.href = "../forgotpassword.html";
+                location.pathname="/signup.html"
             }
+
           
     } catch (err) {
         console.log(err);
