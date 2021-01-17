@@ -31,11 +31,11 @@ let checkOnSubmit = async (e) => {
             console.log(data)
             let jsonData = await data.json();
 	    if(jsonData){
-                location.href = "../index.html";
+                location.href = "../passwordreset.html";
                 
             }
             else{
-                location.pathname="/signup.html"
+                location.pathname="/passwordreset.html"
             }
 
           
