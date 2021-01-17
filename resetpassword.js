@@ -29,6 +29,12 @@ let checkOnSubmit = async () => {
             });
             console.log(data)
             let jsonData = await data.json();
+	    if(jsonData.status==200){
+                location.href = "../emailmessage.html";
+            }
+            else{
+                location.href = "../emailfail.html";
+            }
           
     } catch (err) {
         console.log(err);
