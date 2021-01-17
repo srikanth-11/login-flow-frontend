@@ -30,8 +30,8 @@ let checkOnSubmit = async (e) => {
             });
             console.log(data)
             let jsonData = await data.json();
-	    if(jsonData.status==200){
-                location.pathname="/index.html"
+	    if(jsonData){
+                location.href = "../login.html";
                 
             }
             else{
