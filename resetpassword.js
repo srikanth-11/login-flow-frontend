@@ -31,7 +31,7 @@ let checkOnSubmit = async (e) => {
             console.log(data)
             let jsonData = await data.json();
 	    if(jsonData){
-                location.href = "../login.html";
+                location.href = "../index.html";
                 
             }
             else{
