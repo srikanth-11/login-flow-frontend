@@ -6,7 +6,8 @@ let password = document.getElementById("password");
 let resetButton = document.querySelector(".resetButton");
 
 
-let checkOnSubmit = async () => {
+let checkOnSubmit = async (e) => {
+	 e.preventDefault();
     const url = new URL(window.location.href);
     const token = url.searchParams.get("key");
     console.log(token);
